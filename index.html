@@ -63,9 +63,7 @@
     }
   </style>
 
-  <script>
-  // When launched from the Home Screen as an installed web app,
-  // immediately hand off to the existing Google Apps Script app.
+<script>
   window.addEventListener("DOMContentLoaded", function () {
     const standalone =
       window.matchMedia("(display-mode: standalone)").matches ||
@@ -73,7 +71,7 @@
 
     if (standalone) {
       window.location.replace(
-        "https://script.google.com/a/macros/clarencevilleschools.org/s/AKfycbzrSQfOxhFDgWZhWYLj1ARbfDdI6KgeRcyeTW2HO3HrQrbO6EU5PrVkggV39HFRK31c/exec"
+        "https://script.google.com/a/clarencevilleschools.org/macros/s/AKfycbxR-TrzvSWeDgfNPgftC99H4xQz11S8RX3pSYEX88OaI9gJtlW4fuGMAEP9kADDnr47/exec"
       );
     }
   });
